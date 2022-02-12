@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시간표</title>
+    <style>
+        body {background-color: rgb(39, 206, 206);}
+        table{background-color:  rgb(39, 206, 206); text-align: center;}
+        table:first-child{background-bottom: 1px solid  #000;}
+        tr { }
+        td {background-color: aliceblue; width:100px; height: 50px; text-align: center;border-radius: 10px;}
+        .container {    display: flex;flex-direction: column;align-items: center;}
+        .mon{ background-color: red;}
+        .tue{ background-color: orange;}
+        .wed{ background-color: yellow;}
+        .thr{ background-color: green;}
+        .fri{ background-color: blue;}
+        .tm{background-color: lightgray;}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <h2>시간표</h2>     
+        <table>
+            <tr>
+                <td>
+                    
+                </td>
+                <td class="mon">
+                    월요일
+                </td>
+                <td class="tue">
+                    화요일
+                </td>
+                <td class="wed">
+                    수요일
+                </td>
+                <td class="thr">
+                    목요일
+                </td>
+                <td class="fri">
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                    1교시
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                    2교시
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                    3교시
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                  4교시  
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                    5교시
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                    6교시
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+            <tr>
+                <td class="tm">
+                    7교시
+                </td>
+                <td>
+                    월요일
+                </td>
+                <td>
+                    화요일
+                </td>
+                <td>
+                    수요일
+                </td>
+                <td>
+                    목요일
+                </td>
+                <td>
+                    금요일
+                </td>
+            </tr>
+        </table> 
+    </div>
+</body>
+</html>
